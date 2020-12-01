@@ -26,7 +26,8 @@ class MyComponent extends React.Component {
 	render(){
 		const {data,success} = this.state;
 		return(
-			<h1> Guess Which Dog Is This 
+			<h1> For my Baby Saks, with all the love I have, 
+			Guess Which Dog Is This 
 
 
 			<div>
