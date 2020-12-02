@@ -53,7 +53,7 @@ class MyComponent extends React.Component {
       <form onSubmit = {this.handleSubmit}>
         <h1> Baby Saks, Check this: type something and press submit button:
         Guess Which Dog Is This</h1>
-        <img src={data} />
+        <img src={data} height="300"/>
         <br></br>
         <input type="text" value={this.state.value} onChange={this.handleChange}/>
         <input type="submit" value="submit"  />
